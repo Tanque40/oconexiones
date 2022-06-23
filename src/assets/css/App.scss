@@ -1,3 +1,36 @@
+@import './colors.scss';
+
+/* * Size reference
+ *
+ * $small-screen-up: 601px !default;
+ * $medium-screen-up: 993px !default;
+ * $large-screen-up: 1201px !default;
+ * $small-screen: 600px !default;
+ * $medium-screen: 992px !default;
+ * $large-screen: 1200px !default;
+ *
+ */
+
+
+
+* {
+    color: $bone-support;
+}
+
 body {
-    background-color: rgb(187, 102, 102);
+    background-color: $bone-support;
+}
+
+.primary-background {
+    background-color: $primary-color;
+}
+
+//* Navbar *//
+
+.brand-logo {
+    width: 11rem;   
+}
+
+.brand-logo>img {
+    filter: invert(100%);
 }
