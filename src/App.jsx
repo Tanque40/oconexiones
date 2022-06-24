@@ -55,7 +55,7 @@ class App extends React.Component {
           </nav>
           <div className="main">
             <div className="content">
-              <span>O conexiones</span>
+              <span className="h1">O</span><span>conexiones</span>
             </div>
           </div>
         </div>
@@ -70,10 +70,14 @@ class App extends React.Component {
 
             </div>
           </nav>
-          <div className="valign-wrapper">
-            <div className="">
-              <span style={{color: "black"}}>Hola mundo</span>
+          <div className="animation-container">
+            <div class="animation">
+              <div class="one spin-one"></div>
+              <div class="two spin-two"></div>
+              <div class="three spin-one"></div>
             </div>
+            <h2 class="uppercase">This page is still under construction</h2>
+            <a href="mailto: oconexiones@gmail.com" className="contact-us">Send us a mail</a>
           </div>  
         </div>
         {/* <Header 

@@ -1,4 +1,6 @@
 @import './colors.scss';
+@import './manteinence.scss';
+//@import '../../../node_modules/materialize-css/sass/components/variables';
 
 /* * Size reference
  *
@@ -6,12 +8,12 @@
  * $medium-screen-up: 993px !default;
  * $large-screen-up: 1201px !default;
  * $small-screen: 600px !default;
- * $medium-screen: 992px !default;
+ 
  * $large-screen: 1200px !default;
  *
  */
 
-
+ $medium-screen: 992px !default;
 
 * {
     color: $bone-support;
@@ -88,37 +90,19 @@ body {
     height: 100%;
 
     .content {
-        // span {
-        //     text-transform: uppercase;
-        //     background-image: linear-gradient(
-        //         -225deg,
-        //         $primary-color 0%,
-        //         $secondary-color 29%,
-        //         $third-color 67%,
-        //         $bone-support 100%
-        //     );
-        //     background-size: auto auto;
-        //     background-clip: border-box;
-        //     background-size: 200% auto;
-        //     color: #fff;
-        //     background-clip: text;
-        //     text-fill-color: transparent;
-        //     -webkit-background-clip: text;
-        //     -webkit-text-fill-color: transparent;
-        //     animation: textclip 2s linear infinite;
-        //     display: inline-block;
-        //     font-size: 5em;
-        //     padding: 5px;
-        // }
-        // @keyframes textclip {
-        //     to {
-        //       background-position: 200% center;
-        //     }
-        //   }
+        background-color: rgba(141, 172, 219, 0.500);
+        padding: 7px;
         
+        .h1{
+          font-size: calc(3rem + 5vw) !important;
+          @media (max-width: $medium-screen) {
+            font-size: 2em;
+          }
+          margin-right: 5px;
+        }
+
         span {
-            background-color: rgba(141, 172, 219, 0.500);
-            padding: 7px;
+            
             text-shadow: 3px 3px 0 $secondary-color, 6px 6px 0 $third-color, 9px 9px $orange-support, 12px 12px 0 $bone-support;
             font-family: bungee, sans-serif;
             font-weight: 400;
