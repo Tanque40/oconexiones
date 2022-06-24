@@ -17,6 +17,14 @@
     color: $bone-support;
 }
 
+#root{
+    height: 100%;
+}
+html, body, .block {
+    //border: 5px solid darkblue;
+    height: 100%;
+}
+
 body {
     background-color: $bone-support;
 }
@@ -33,4 +41,22 @@ body {
 
 .brand-logo>img {
     filter: invert(100%);
+}
+
+// * Pushpin *//
+
+
+// Class for when element is above threshold
+.pin-top {
+    position: relative;
+}
+  
+// Class for when element is below threshold
+.pin-bottom {
+    position: relative;
+}
+  
+// Class for when element is pinned
+.pinned {
+    position: fixed !important;
 }
