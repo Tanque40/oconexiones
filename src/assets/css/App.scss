@@ -92,6 +92,11 @@ body {
     .content {
         background-color: rgba(141, 172, 219, 0.500);
         padding: 7px;
+        display: flex;
+        flex: 2;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
         .h1{
           font-size: calc(3rem + 5vw) !important;

@@ -55,7 +55,8 @@ class App extends React.Component {
           </nav>
           <div className="main">
             <div className="content">
-              <span className="h1">O</span><span>conexiones</span>
+              <span className="h1">'O'</span>
+              <span>conexiones</span>
             </div>
           </div>
         </div>
