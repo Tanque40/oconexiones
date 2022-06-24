@@ -78,7 +78,7 @@ class App extends React.Component {
               <div class="three spin-one"></div>
             </div>
             <h2 class="uppercase">This page is still under construction</h2>
-            <a href="mailto: oconexiones@gmail.com" className="contact-us">Send us a mail</a>
+            <a href="mailto: oconexiones@gmail.com" className="contact-us">Send us an email</a>
           </div>  
         </div>
         {/* <Header 
