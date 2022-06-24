@@ -6,7 +6,7 @@ import 'materialize-css/dist/css/materialize.min.css'
 import './assets/css/App.scss'
 
 // ? Images
-import bussines from './assets/images/business-intelligence-1-1280x853.jpg'
+import bussines from './assets/images/bussiness.jpg'
 import logo from './assets/images/logo.PNG'
 
 // * Materialize
@@ -43,7 +43,40 @@ class App extends React.Component {
     return (
       <>
 
-        <Header 
+        <div className="block bg" id="uno">
+          <nav className="pushpin" data-taget="uno">
+            <div className="nav-wrapper transparent-bg-color" >
+
+              <a className="brand-logo right">
+                <img src={logo} alt="logo" className="responsive-img" />
+              </a>
+
+            </div>
+          </nav>
+          <div className="main">
+            <div className="content">
+              <span>O conexiones</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="block" id="dos">
+          <nav className="pushpin" data-taget="dos">
+            <div className="nav-wrapper primary-background" >
+
+              <a className="brand-logo right">
+                <img src={logo} alt="logo" className="responsive-img" />
+              </a>
+
+            </div>
+          </nav>
+          <div className="valign-wrapper">
+            <div className="">
+              <span style={{color: "black"}}>Hola mundo</span>
+            </div>
+          </div>  
+        </div>
+        {/* <Header 
           target="uno"
           containerStyles="block"
           navStyles="pushpin"
@@ -51,15 +84,16 @@ class App extends React.Component {
           <div className="">
             <span style={{color: "black"}}>Hola mundo</span>
           </div>
-        </Header>
+        </Header> */}
 
-        <Header 
+        {/* <Header 
           target="dos"
           containerStyles="block"
           navStyles="pushpin"
         />
-                    
-      </>
+        */}
+
+      </> 
     );
   }
 }
